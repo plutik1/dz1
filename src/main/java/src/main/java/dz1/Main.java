@@ -24,8 +24,9 @@ public class Main {
         System.out.println(vending.getProduct(2L));
         System.out.println(vending.getProduct(5L));
 
-        HotDrink TEA = new TEA("tea", 20, 1L, 2, 65.0);
-        HotDrinksVendingMachine.addHotDrink(TEA);
+        HotDrink TEA = new TEA("tea", 20, 4L, 2, 65.0);
+        HotDrink coffe = new coffe ("coffe", 32,4L,2,34);
+       // HotDrinksVendingMachine.
 
 
 
